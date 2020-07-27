@@ -1,4 +1,29 @@
 ﻿<Properties StartupConfiguration="{1103BCB0-A1EB-4E15-B594-9632B8B4B16D}|Default">
-  <MonoDevelop.Ide.ItemProperties.ZooParkWebsiteManagement FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZooParkWebsiteManagement/Pages/Index.cshtml">
+    <Files>
+      <File FileName="ZooParkWebsiteManagement/Pages/Index.cshtml" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ZooParkWebsiteManagement" expanded="True">
+            <Node name="ZooParkWebsiteManagement" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ZooParkWebsiteManagement FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
