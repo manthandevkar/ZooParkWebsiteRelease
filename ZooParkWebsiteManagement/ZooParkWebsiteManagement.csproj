@@ -10,7 +10,7 @@ Target Name="Start">
 
   <Target Name="Build">
     <MSBuild
-      Projects="$(SourceFolder)\FirstPipelineWithBoth.cs"
+
       Properties="Configuration=Debug"
       Targets="Clean;Build"
       ContinueOnError="false"
