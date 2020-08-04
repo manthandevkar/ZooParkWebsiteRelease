@@ -4,10 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
- <PropertyGroup>
-         <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
-         <BuildPlatform Condition=" '$(BuildPlatform)' == '' ">Any CPU</BuildPlatform>
- </PropertyGroup>
+Target Name="Start">
+    <CallTarget Targets="Build"></CallTarget>
+  </Target>
 
-
+  <Target Name="Build">
+    <MSBuild
+      Projects="$(SourceFolder)\FirstPipelineWithBoth.cs"
+      Properties="Configuration=Debug"
+      Targets="Clean;Build"
+      ContinueOnError="false"
+      StopOnFirstFailure="true"/>
+  </Target>
 </Project>
