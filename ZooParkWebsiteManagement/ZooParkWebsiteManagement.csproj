@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+ <PropertyGroup>
+         <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+         <BuildPlatform Condition=" '$(BuildPlatform)' == '' ">Any CPU</BuildPlatform>
+ </PropertyGroup>
+
+
 </Project>
