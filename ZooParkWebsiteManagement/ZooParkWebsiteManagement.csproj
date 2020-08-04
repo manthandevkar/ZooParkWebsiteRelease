@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-Target Name="Start">
+<Target Name="Start">
     <CallTarget Targets="Build"></CallTarget>
   </Target>
 
