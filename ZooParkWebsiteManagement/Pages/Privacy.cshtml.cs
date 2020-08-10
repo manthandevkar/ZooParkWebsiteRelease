@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
 namespace ZooParkWebsiteManagement.Pages
-{sadfghjk
+{
     public class PrivacyModel : PageModel
     {
         private readonly ILogger<PrivacyModel> _logger;
