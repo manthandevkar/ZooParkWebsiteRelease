@@ -1,7 +1,5 @@
-pipeline {
-   agent any
 
-   stages {
+   node {
       stage('Hello') {
          steps {
             echo 'Hello World'
