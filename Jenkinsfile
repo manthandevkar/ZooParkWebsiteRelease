@@ -2,7 +2,7 @@
    node {
       stage('Hello') {
 
-            echo 'Hello Worl'
+            echo 'Hello Sai..! am from github'
      
       }
    }
