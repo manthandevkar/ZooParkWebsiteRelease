@@ -11,7 +11,7 @@ namespace ZooParkWebsiteManagement
 {
     public class Program
     {
-        string i;
+       private string i;
             
         public static void Main(string[] args)
         {
